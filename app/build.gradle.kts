@@ -78,6 +78,9 @@ dependencies {
     kapt ("com.google.dagger:hilt-compiler:2.45")
     implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
 
+    //Accompanist -- maybe remove in the future
+    implementation ("com.google.accompanist:accompanist-systemuicontroller:0.31.4-beta")
+
     implementation("androidx.compose.material3:material3")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
