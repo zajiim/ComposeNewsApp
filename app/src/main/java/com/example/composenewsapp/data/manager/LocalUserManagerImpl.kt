@@ -7,7 +7,6 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.preferencesDataStore
 import com.example.composenewsapp.core.utils.Constants
-import com.example.composenewsapp.core.utils.Constants.APP_ENTRY
 import com.example.composenewsapp.core.utils.Constants.USER_SETTINGS
 import com.example.composenewsapp.domain.manager.LocalUserManager
 import kotlinx.coroutines.flow.Flow

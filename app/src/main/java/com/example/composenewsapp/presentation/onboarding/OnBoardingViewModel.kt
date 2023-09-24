@@ -16,10 +16,6 @@ class OnBoardingViewModel @Inject constructor(
             is OnBoardingEvent.SaveAppEntry -> {
                 saveAppEntry()
             }
-
-            else -> {
-
-            }
         }
     }
 
